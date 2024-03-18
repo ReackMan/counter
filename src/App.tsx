@@ -1,4 +1,4 @@
-import React, {useState} from 'react'
+import React from 'react'
 import {CounterSettings} from "./counter/CounterSettings";
 import {Counter} from "./counter/Counter";
 import styled from "styled-components";

@@ -1,4 +1,4 @@
-import React, {ChangeEvent, FC, useEffect, useState} from 'react';
+import React, {ChangeEvent, FC, useEffect} from 'react';
 import styled from "styled-components";
 import {Button} from "../button/Button";
 import {StyledButtons} from "../button/StyledButton";
@@ -6,7 +6,8 @@ import {StyledCounterValue} from "./StyledCounter";
 import {StyledInput, StyledMaxMinValues, StyledValuesChanger} from "./StyledCounterSettings";
 import {useAppDispatch, useAppSelector} from "../redux/store";
 import {
-    setErrorAC, setIncorrectValueAC,
+    setErrorAC,
+    setIncorrectValueAC,
     setIsChangingNowAC,
     setMaxValueAC,
     setMinValueAC,
